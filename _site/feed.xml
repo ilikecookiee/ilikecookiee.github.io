@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Choo Group&#39;s Fun Page :)</title>
+    <description>Fun pages for Choo Group!</description>
+    <link>http://funpage.github.io/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 14 Feb 2015 01:59:12 -0500</pubDate>
+    <lastBuildDate>Sat, 14 Feb 2015 01:59:12 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>We love Häagen-Dazs bars!</title>
+        <description>Our lab consumed more than 100 Häagen-Dazs bars this year. Photo by Lance Hayashida.</description>
+        <pubDate>Thu, 14 Aug 2014 00:00:00 -0400</pubDate>
+        <link>http://funpage.github.io/food/2014/08/14/HDbars/</link>
+        <guid isPermaLink="true">http://funpage.github.io/food/2014/08/14/HDbars/</guid>
+        
+        
+        <category>food</category>
+        <img1> none</img1>
+        <des1> </des1>
+        <img2> none</img2>
+        <des2> </des2>       
+        <img3> none</img3>
+        <des3> </des3>
+        <img4> none</img4>
+        <des4> </des4>       
+        <img5> none</img5>
+        <des5> </des5>
+        <img6> none</img6>
+        <des6> </des6>       
+        <img7> none</img7>
+        <des7> </des7>       
+        
+      </item>
+    
+      <item>
+        <title>Group Hollywood-Sign hiking trip</title>
+        <description>View of LA and the Griffith observatory on our annual Hollywood-Sign hike.</description>
+        <pubDate>Fri, 25 Jul 2014 00:00:00 -0400</pubDate>
+        <link>http://funpage.github.io/outings/2014/07/25/Hiking1/</link>
+        <guid isPermaLink="true">http://funpage.github.io/outings/2014/07/25/Hiking1/</guid>
+        
+        
+        <category>outings</category>
+        <img1> DSCF2447.JPG</img1>
+        <des1> </des1>
+        <img2> none</img2>
+        <des2> </des2>       
+        <img3> none</img3>
+        <des3> </des3>
+        <img4> none</img4>
+        <des4> </des4>       
+        <img5> none</img5>
+        <des5> </des5>
+        <img6> none</img6>
+        <des6> </des6>       
+        <img7> none</img7>
+        <des7> </des7>       
+        
+      </item>
+    
+  </channel>
+</rss>

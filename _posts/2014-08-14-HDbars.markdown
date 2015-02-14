@@ -1,0 +1,20 @@
+---
+layout: default
+title: We love Häagen-Dazs bars!
+modal-id: 1
+date: 2014-08-14
+img: ChooLab.jpg
+img1: none
+img2: none
+img3: none
+img4: none
+img5: none
+img6: none
+img7: none
+alt: image-alt
+project-date: April 2014
+client: Start Bootstrap
+category: food
+description: Our lab consumed more than 100 Häagen-Dazs bars this year. Photo by Lance Hayashida.
+
+---

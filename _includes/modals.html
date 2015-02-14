@@ -1,0 +1,267 @@
+ <!-- food Modals -->
+
+
+
+ {% for post in site.posts%}
+    {% if post.category == 'food' %}
+    <div class="food-modal modal fade" id="foodModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/food/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+
+                            {% if post.img1 != "none" %}
+                            <img src="img/food/{{ post.img1 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des1 }}</p>
+                            {% endif %}
+
+                            {% if post.img2 != "none" %}
+                            <img src="img/food/{{ post.img2 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des2 }}</p>
+                            {% endif %}
+
+                            {% if post.img3 != "none" %}
+                            <img src="img/food/{{ post.img3 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des3 }}</p>
+                            {% endif %}
+
+                            {% if post.img4 != "none" %}
+                            <img src="img/food/{{ post.img4 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des4 }}</p>
+                            {% endif %}
+
+                            {% if post.img5 != "none" %}
+                            <img src="img/food/{{ post.img5 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des5 }}</p>
+                            {% endif %}
+
+                            {% if post.img6 != "none" %}
+                            <img src="img/food/{{ post.img6 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des6 }}</p>
+                            {% endif %}
+
+                            {% if post.img7 != "none" %}
+                            <img src="img/food/{{ post.img7 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des7 }}</p>
+                            {% endif %}
+                            
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     {% endif %}
+{% endfor %}
+
+
+
+<!-- friends modals -->
+
+ {% for post in site.posts%}
+    {% if post.category == 'friends' %}
+    <div class="friends-modal modal fade" id="friendsModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/friends/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+
+                            {% if post.img1 != "none" %}
+                            <img src="img/friends/{{ post.img1 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des1 }}</p>
+                            {% endif %}
+
+                            {% if post.img2 != "none" %}
+                            <img src="img/friends/{{ post.img2 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des2 }}</p>
+                            {% endif %}
+
+                            {% if post.img3 != "none" %}
+                            <img src="img/friends/{{ post.img3 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des3 }}</p>
+                            {% endif %}
+
+                            {% if post.img4 != "none" %}
+                            <img src="img/friends/{{ post.img4 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des4 }}</p>
+                            {% endif %}
+
+                            {% if post.img5 != "none" %}
+                            <img src="img/friends/{{ post.img5 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des5 }}</p>
+                            {% endif %}
+
+                            {% if post.img6 != "none" %}
+                            <img src="img/friends/{{ post.img6 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des6 }}</p>
+                            {% endif %}
+
+                            {% if post.img7 != "none" %}
+                            <img src="img/friends/{{ post.img7 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des7 }}</p>
+                            {% endif %}
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     {% endif %}
+{% endfor %}
+
+
+<!-- other modals -->
+ {% for post in site.posts%}
+    {% if post.category == 'other' %}
+    <div class="other-modal modal fade" id="otherModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/other/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+
+                            {% if post.img1 != "none" %}
+                            <img src="img/other/{{ post.img1 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des1 }}</p>
+                            {% endif %}
+
+                            {% if post.img2 != "none" %}
+                            <img src="img/other/{{ post.img2 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des2 }}</p>
+                            {% endif %}
+
+                            {% if post.img3 != "none" %}
+                            <img src="img/other/{{ post.img3 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des3 }}</p>
+                            {% endif %}
+
+                            {% if post.img4 != "none" %}
+                            <img src="img/other/{{ post.img4 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des4 }}</p>
+                            {% endif %}
+
+                            {% if post.img5 != "none" %}
+                            <img src="img/other/{{ post.img5 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des5 }}</p>
+                            {% endif %}
+
+                            {% if post.img6 != "none" %}
+                            <img src="img/other/{{ post.img6 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des6 }}</p>
+                            {% endif %}
+
+                            {% if post.img7 != "none" %}
+                            <img src="img/other/{{ post.img7 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des7 }}</p>
+                            {% endif %}
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     {% endif %}
+{% endfor %}
+
+
+<!-- outings modals --> 
+ {% for post in site.posts%}
+    {% if post.category == 'outings' %}
+    <div class="outings-modal modal fade" id="outingsModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <img src="img/outings/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.description }}</p>
+
+                            {% if post.img1 != "none" %}
+                            <img src="img/outings/{{ post.img1 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des1 }}</p>
+                            {% endif %}
+
+                            {% if post.img2 != "none" %}
+                            <img src="img/outings/{{ post.img2 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des2 }}</p>
+                            {% endif %}
+
+                            {% if post.img3 != "none" %}
+                            <img src="img/outings/{{ post.img3 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des3 }}</p>
+                            {% endif %}
+
+                            {% if post.img4 != "none" %}
+                            <img src="img/outings/{{ post.img4 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des4 }}</p>
+                            {% endif %}
+
+                            {% if post.img5 != "none" %}
+                            <img src="img/outings/{{ post.img5 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des5 }}</p>
+                            {% endif %}
+
+                            {% if post.img6 != "none" %}
+                            <img src="img/outings/{{ post.img6 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des6 }}</p>
+                            {% endif %}
+
+                            {% if post.img7 != "none" %}
+                            <img src="img/outings/{{ post.img7 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des7 }}</p>
+                            {% endif %}
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     {% endif %}
+{% endfor %}
