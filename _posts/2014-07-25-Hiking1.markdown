@@ -5,12 +5,19 @@ title: Group Hollywood-Sign hiking trip
 date: 2014-07-25
 img: DSCF2461.JPG
 img1: DSCF2447.JPG
-img2: none
+img2: DSCF2415.JPG
 img3: none
 img4: none
 img5: none
 img6: none
 img7: none
+des1:
+des2: Sagar's very Sagar-ish pose :) 
+des3:
+des4:
+des5:
+des6:
+des7:
 alt: image-alt
 project-date: April 2014
 client: Start Bootstrap
