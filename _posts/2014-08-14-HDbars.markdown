@@ -12,7 +12,7 @@ img5: none
 img6: none
 img7: none
 alt: image-alt
-project-date: April 2014
+project-date: August 2014
 client: Start Bootstrap
 category: food
 description: Our lab consumed more than 100 Häagen-Dazs bars this year. Photo by Lance Hayashida.

@@ -19,7 +19,7 @@ des5:
 des6:
 des7:
 alt: image-alt
-project-date: April 2014
+project-date: July 2014
 client: Start Bootstrap
 category: outings
 description: View of LA and the Griffith observatory on our annual Hollywood-Sign hike.
