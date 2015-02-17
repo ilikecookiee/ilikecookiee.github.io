@@ -1,6 +1,6 @@
 ---
 layout: default
-modal-id: 1
+modal-id: 2
 title: Jennifer and Yonghwi (Henry)'s birthday celebrations!
 date: 2014-07-25
 img: Bdaycake.png
