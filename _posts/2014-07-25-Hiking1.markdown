@@ -5,7 +5,7 @@ title: Group Hollywood-Sign hiking trip
 date: 2014-07-25
 img: DSCF2461.JPG
 img1: DSCF2447.JPG
-img2: DSCF2415.JPG
+img2: DSCF2418.JPG
 img3: none
 img4: none
 img5: none
