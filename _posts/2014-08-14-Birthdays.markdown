@@ -11,6 +11,7 @@ img2: Profchoo.png
 img5: none
 img6: none
 img7: none
+img8: none
 des3: Surprise gifts for Henry and Jennifer! Grace and Margaret were very confident that if they opened a shirt design store, it would be very successful :) 
 des4: Prof. Choo in his signature plaid shirt. 
 des1: We celebrated their birthdays at an Indian restaurant recommended by Prof. P.P. Vaidyanathan
@@ -18,6 +19,7 @@ des2:
 des5:
 des6:
 des7:
+des8:
 alt: image-alt
 project-date: August 2014
 client: Start Bootstrap

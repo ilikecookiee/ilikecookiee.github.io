@@ -11,6 +11,7 @@ img4: hj3.png
 img5: none
 img6: none
 img7: none
+img8: none
 alt: image-alt
 project-date: September 2014
 client: Start Bootstrap

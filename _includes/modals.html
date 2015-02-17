@@ -56,7 +56,12 @@
                             <img src="img/food/{{ post.img7 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.des7 }}</p>
                             {% endif %}
-                            
+ 
+                            {% if post.img8 != "none" %}
+                            <img src="img/food/{{ post.img8 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des8 }}</p>
+                            {% endif %}
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -126,6 +131,11 @@
                             <p>{{ post.des7 }}</p>
                             {% endif %}
 
+                            {% if post.img8 != "none" %}
+                            <img src="img/friends/{{ post.img8 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des8 }}</p>
+                            {% endif %}
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -193,6 +203,10 @@
                             <p>{{ post.des7 }}</p>
                             {% endif %}
 
+                            {% if post.img8 != "none" %}
+                            <img src="img/other/{{ post.img8 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des8 }}</p>
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -258,6 +272,11 @@
                             {% if post.img7 != "none" %}
                             <img src="img/outings/{{ post.img7 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                             <p>{{ post.des7 }}</p>
+                            {% endif %}
+
+                            {% if post.img8 != "none" %}
+                            <img src="img/outings/{{ post.img8 }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+                            <p>{{ post.des8 }}</p>
                             {% endif %}
 
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
