@@ -1,16 +1,18 @@
----
-layout: compress
----
-{% include head.html %}
-<body id="top-of-page" class="{{ page.format }}">
-	{% include navigation.html %}
-
-	{% include masthead.html %}
-
-	{{ content }}
-
-	{% include footer.html %}
-	
-	{% include footer_scripts.html %}
-</body>
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index">
+    {% include nav.html %}
+    {% include header.html %}
+    {% include outings_grid.html %}
+    {% include food_grid.html %}
+    {% include friends_grid.html %}
+    {% include other_grid.html %}
+    {% include contact.html %}
+    <!--
+    {% include footer.html %}
+    -->
+    {% include modals.html %}
+    {% include js.html %}
+    </body>
 </html>

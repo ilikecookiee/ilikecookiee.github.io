@@ -1,0 +1,41 @@
+ <!-- About Section -->
+    <section class="success" id="celebrations">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Celebrations</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+
+            <div class="row">
+                {% for post in site.posts/celebrations/ %}
+                    <div class="col-sm-4 celebrations-item">
+                        <a href="#foodModal-{{ post.modal-id }}" class="celebrations-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                            <img src="img/celebrations/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                        </a>
+                    </div>
+                {% endfor %}
+            </div>
+            <!--
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>INSERT TINGS :D</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>INSERT TINGS :D  </p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="http://choolab.caltech.edu/" class="btn btn-lg btn-outline">
+                        Back to group page. 
+                    </a>
+                </div>
+            </div>
+        -->
+        </div>
+    </section>
